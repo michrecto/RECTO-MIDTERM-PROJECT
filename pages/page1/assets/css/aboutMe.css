@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #e6e8d9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #38383d;
+    padding: 1rem;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(109, 110, 103));
+
+
+    .btn {
+        padding: 2rem 2rem;
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    nav {
+        display: flex;
+        gap : 0.5rem;
+        position: relative;
+
+        a {
+            text-decoration: none;
+            z-index: 1;
+        }
+
+        a:hover {
+            font-size: smaller;
+            color: white;
+        }
+
+    }
+}
+
+
+.logo {
+    width: 10rem;
+    align-items: center;
+}
+
+.top {
+    background-color: #27272b;
+    text-align: end;
+    line-height: 1.2;
+
+
+
+    h1 {
+        font-size: 3rem;
+        padding-bottom: 5px;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        line-height: 1.8;
+        padding-top: 20px;
+    }
+
+    .row {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .column {
+        flex: 50%;
+        padding: 40px;
+
+    }
+
+    .portrait {
+        display: block;
+        width: 50rem;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+.middle {
+    background-color: #27272b;
+    background-image: linear-gradient(to top, rgb(72, 73, 67), rgba(255, 0, 0, 0));
+
+
+    h2 {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    h4 {
+        line-height: 1.9;
+    }
+
+    p {
+        line-height: 2;
+    }
+
+    hr {
+        margin: 20px 0;
+        color: #e6e8d9;
+    }
+}
+
+.row-mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.column-mid {
+    padding: 20px 0;
+    margin: 0 20rem;
+}
+
+.icons {
+    float: left;
+    padding: 5%;
+    align-items: center;
+}
+
+.footer {
+    background-color: #27272b;
+    text-align: end;
+    line-height: 1.6;
+    font-family: serif;
+
+}
+
+.row-footer {
+    display: flex;
+    align-items: center;
+}
+
+.column-footer {
+    flex: 50%;
+    padding: 40px;
+    margin: 0 60px;
+
+}
+
+
+.links {
+    display: flex;
+    justify-content: center;
+
+}
+
+.links a {
+    margin: 0 30px;
+    text-decoration: none;
+
+}
